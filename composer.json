@@ -1,0 +1,27 @@
+{
+    "require-dev": {
+        "pestphp/pest": "^1.22",
+        "spatie/phpunit-watcher": "^1.23",
+        "symfony/var-dumper": "^6.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Domain\\Blog\\": "domain/Blog/src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Domain\\Blog\\Test\\": "domain/Blog/tests/"
+        }
+    },
+
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+   
+
+}
